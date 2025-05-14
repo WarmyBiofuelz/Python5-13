@@ -1,0 +1,1 @@
+print ('Hello LT and World')
