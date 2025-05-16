@@ -18,7 +18,8 @@
 #- try-except for error handling
 #- Variable assignment
 
-print("Welcome! I'll help you convert kilometers to miles.")
+from rich import print
+print("[bold green]Welcome![/bold green] I'll help you convert [cyan]kilometers[/cyan] to [magenta]miles[/magenta].")
 print("Please enter the distance in kilometers:")
 user_input = input("Distance in kilometers: ")
 try:
